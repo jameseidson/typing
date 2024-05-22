@@ -17,8 +17,13 @@ shift_index = "C$RFV%TGB^YHN&UJM*"
 middle = "3edx9ik,"
 shift_middle = "#EDX,(IK<"
 
-chars = middle + shift_middle + index + shift_index + home_row + shift_home_row
+ring = "2wsz0ol."
+shift_ring = "@WSZ)OL>"
 
+pinky = "1qa-p;/=[']\\"
+shift_pinky = "!QA_P:+{\"}|"
+
+chars = index + shift_index + middle + shift_middle + ring + shift_ring + pinky + shift_pinky
 
 def geometric_sample():
     word = []
